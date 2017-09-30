@@ -14,7 +14,7 @@ public class JsonWebTokenTest {
   public static void setUp() {
     token = new JsonWebToken(
         new Header("JWT", "HS256"),
-        new Payload());
+        new Payload("Mozilla issuer", "uniqueId"));
   }
 
   @Test

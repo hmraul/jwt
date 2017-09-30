@@ -14,7 +14,8 @@ Sample for Json Web Tokens
     "iis": issuer (String or Uri)
     "iat": JWT time issued (number value),
     "exp": JWT Expiration date (number value),
-    "jti": JWT unique identifier
+    "jti": JWT unique identifier,
+    "uid": unique identifier
 }
 ```
 #####Signature:
